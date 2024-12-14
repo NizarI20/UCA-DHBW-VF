@@ -36,7 +36,7 @@
                 <!-- News section title -->
                 <h1 class="mb-0">News</h1>
             </div>
-           
+
             <div class="row g-5">
                 <div class="col-lg-4">
             <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
@@ -55,7 +55,7 @@
                 <div class="col-lg-8">
                     <div class="row g-5" id="workshop_news">
                 @foreach($latestWorkshops as $workshop)
-                    
+
                 <div class="col-md-6 wow slideInUp" >
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
@@ -76,9 +76,9 @@
                 @endforeach
                     </div>
             </div>
-                 
+
             </div>
-            
+
             <div class="row g-5" id="internship_news">
                 @foreach($latestInternships as $internship)
                 <div class="col-lg-4 wow slideInUp">
@@ -99,9 +99,9 @@
                     </div>
                 </div>
                 @endforeach
-               
+
             </div>
-            
+
             <div class="row g-5" id="program_news">
                 @foreach($latestPrograms as $program)
                 <div class="col-lg-4 wow slideInUp">
@@ -122,9 +122,9 @@
                     </div>
                 </div>
                 @endforeach
-               
+
             </div>
-            
+
             <div class="row g-5" id="fablab_news">
                 @foreach($latestFablabs as $fablab)
                 <div class="col-lg-4 wow slideInUp">
@@ -145,9 +145,9 @@
                     </div>
                 </div>
                 @endforeach
-               
+
             </div>
-            
+
             <div class="row g-5" id="project_news">
                 @foreach($latestProjects as $project)
                 <div class="col-lg-4 wow slideInUp">
@@ -168,7 +168,7 @@
                     </div>
                 </div>
                 @endforeach
-               
+
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@
     <!-- Include Scripts -->
     @include('front.partials.scripts')
 
-    
+
 </body>
 
 </html>

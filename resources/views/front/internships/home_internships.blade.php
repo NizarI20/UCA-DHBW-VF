@@ -23,7 +23,7 @@
         <ul>
         <li><div onclick="scrollToSection('internships')">INTERNSHIPS</div></li>
         <li><div onclick="scrollToSection('refine_search')">FILTER INTERNSHIPS</div></li>
-        
+
         </ul>
     </div>
 
@@ -56,7 +56,6 @@
                     <div class="position-relative h-100">
                         <img class="w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('img/IMG_0326.JPG') }}" style="object-fit: cover;">
                     </div>
-                </div>
             </div>
         </div>
 
@@ -141,7 +140,7 @@
 
     <!-- AJAX script for form submission and pagination -->
     @include('front.partials.form_script')
-    
+
     <!-- Quick Navigation Script-->
     @include('front.partials.navigation_script')
 </body>
